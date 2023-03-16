@@ -8,6 +8,7 @@
 ```
 curl.exe -LO "https://dl.k8s.io/release/v1.26.0/bin/windows/amd64/kubectl.exe"
 ```
- - Go to edit environment variables and new path for kubectl
+ - Go to edit environment variables and new path for kubectl    
+ ![Image](https://github.com/Kantapong11755/Kube/issues/1#issue-1627406593)
 
 ### Install mini kube windows
