@@ -43,7 +43,7 @@ C:\kubetcl
  New-Item -Path 'c:\' -Name 'minikube' -ItemType Directory -Force
 Invoke-WebRequest -OutFile 'c:\minikube\minikube.exe' -Uri 'https://github.com/kubernetes/minikube/releases/latest/download/minikube-windows-amd64.exe' -UseBasicParsing
 ```
- - Check path after install    
+ - Check path after install     
         
  ![minikube](https://user-images.githubusercontent.com/116998478/225668225-725ca1dc-d9cc-4e3c-b2cb-5b726dc6f0e9.png)
 
