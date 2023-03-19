@@ -13,7 +13,7 @@
  
 
 ### Wakatime Kube
- - [https://wakatime.com/@spcn12/projects/ivfefhesbh]    
+ - [https://wakatime.com/@spcn12/projects/tblrujaein]    
       
 ### Kubectl
  - [https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/]    
