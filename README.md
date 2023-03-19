@@ -1,5 +1,4 @@
 
-      
 # Kube project     
 #### My divice     
  OS : windowns 11      
