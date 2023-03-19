@@ -21,7 +21,10 @@
 ### Minikube
  - [https://minikube.sigs.k8s.io/docs/start/]    
 ### Install Docker desktop  
- - [https://www.docker.com/products/docker-desktop/]    
+ - [https://www.docker.com/products/docker-desktop/]      
+ 
+### Traefik deploy on docker
+ [https://github.com/iamapinan/kubeplay-traefik]
      
 ![image](https://user-images.githubusercontent.com/116998478/225642506-e6951c99-48c1-4bd3-95c4-8ce572f41ef3.png)    
         
@@ -68,6 +71,34 @@ wsl --install
 ```     
     
 -----------------------------------------------------------------------------------------------------------------------------
+
+### Traefik deploy on minikube  
+#### 1.Install Traefik Resource Definitions and RBAC for Traefik 
+```
+kubectl apply -f https://raw.githubusercontent.com/traefik/traefik/v2.9/docs/content/reference/dynamic-configuration/kubernetes-crd-definition-v1.yml
+kubectl apply -f https://raw.githubusercontent.com/traefik/traefik/v2.9/docs/content/reference/dynamic-configuration/kubernetes-crd-rbac.yml
+``` 
+
+### 2.Install Traefik Helmchart
+```
+helm repo add traefik https://traefik.github.io/charts
+helm repo update
+helm install traefik traefik/traefik
+```
+### 3.Run this code to create secrete
+```
+htpasswd -nB user | tee auth-secret
+kubectl create secret generic -n traefik dashboard-auth-secret --from-   file=users=auth-secret -o yaml --dry-run=client | tee dashboard-secret.yaml
+```
+### 4.Change namespace in traefik-dashboard.yaml file.
+### 5.Run this command to view ip host.
+```
+kubectl svc
+```
+### 6.Add ip host in host file this path C:\Windows\System32\drivers\etc
+### 7.Go to host to check result.
+
+
 
 
  
