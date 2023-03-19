@@ -93,10 +93,23 @@ kubectl create secret generic -n traefik dashboard-auth-secret --from-   file=us
 ### 4.Change namespace in traefik-dashboard.yaml file.
 ### 5.Run this command to view ip host.
 ```
-kubectl svc
+kubectl get svc
 ```
 ### 6.Add ip host in host file this path C:\Windows\System32\drivers\etc
 ### 7.Go to host to check result.
+```
+https://traefik.spcn12.local
+```    
+
+    
+![image](https://user-images.githubusercontent.com/116998478/226189710-2a0924ba-ed9a-4eae-a682-cd029600a2df.png)
+
+
+
+
+
+
+
 
 
 
