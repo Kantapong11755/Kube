@@ -101,8 +101,12 @@ kubectl get svc
 https://traefik.spcn12.local
 ```    
 
-    
 ![image](https://user-images.githubusercontent.com/116998478/226189710-2a0924ba-ed9a-4eae-a682-cd029600a2df.png)
+
+```
+http://web.spcn12.local
+```     
+![image](https://user-images.githubusercontent.com/116998478/226189908-c3d52aea-154d-4b8f-8e74-09d14539fe9d.png)
 
 
 
