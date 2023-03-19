@@ -47,7 +47,7 @@ C:\kubetcl
            
 ![image](https://user-images.githubusercontent.com/116998478/225634675-2fe94ad1-30f7-439f-85e9-dd266dc4fd16.png)    
       
-![image](https://user-images.githubusercontent.com/116998478/225642506-e6951c99-48c1-4bd3-95c4-8ce572f41ef3.png)       
+![image](https://user-images.githubusercontent.com/116998478/225642936-074fd6aa-1fcb-4daa-b586-499445097ba4.png)       
 
 
 ### 2.Install mini kube windows
