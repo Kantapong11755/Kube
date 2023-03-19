@@ -64,7 +64,7 @@ Invoke-WebRequest -OutFile 'c:\minikube\minikube.exe' -Uri 'https://github.com/k
  ### 4.Install wsl2 linux for windows (Docker require)
   - Run this command for install Wsl2
 ```
-swl --install
+wsl --install
 ```     
     
 -----------------------------------------------------------------------------------------------------------------------------
