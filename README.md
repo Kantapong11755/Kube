@@ -13,12 +13,10 @@
  Wsl2 ( linux Ubantu )
  
 
- 
-
 ### Wakatime Kube
  - [https://wakatime.com/@spcn12/projects/ivfefhesbh]    
       
-### Kubectl Debian
+### Kubectl
  - [https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/]    
      
 ### Minikube
@@ -63,11 +61,14 @@ Invoke-WebRequest -OutFile 'c:\minikube\minikube.exe' -Uri 'https://github.com/k
         
  ![minikube](https://user-images.githubusercontent.com/116998478/225668225-725ca1dc-d9cc-4e3c-b2cb-5b726dc6f0e9.png)
 
- ### 3.install Docker for Desktop
- ### 4.install wsl2 linux for windows (Docker require)
+ ### 3.Install Docker for Desktop
+ ### 4.Install wsl2 linux for windows (Docker require)
   - Run this command for install Wsl2
 ```
 swl --install
-```
+```     
+    
+-----------------------------------------------------------------------------------------------------------------------------
+
 
  
